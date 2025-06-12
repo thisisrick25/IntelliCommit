@@ -4,8 +4,8 @@ on:
       - main
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: write # to create release commit (google-github-actions/release-please-action)
+  pull-requests: write # to create release PR (google-github-actions/release-please-action)
 
 name: release-please
 
@@ -21,4 +21,4 @@ jobs:
           token: ${{ secrets.MY_RELEASE_PLEASE_TOKEN }}
           # this is a built-in strategy in release-please, see "Action Inputs"
           # for more options
-          release-type: simple
+          release-type: node
