@@ -2,14 +2,16 @@
   "name": "intellicommit",
   "displayName": "IntelliCommit",
   "description": "",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.100.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": ["onView:workbench.view.sourceControl"],
+  "activationEvents": [
+    "onView:workbench.view.sourceControl"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
