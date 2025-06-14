@@ -19,6 +19,11 @@
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": false,
   "include-v-in-tag": true,
+  "draft": true,
+  "prerelease": true,
+  "draft-pull-request": true,
+  "always-update": true,
+  "pull-request-title-pattern": "chore(release): 🚀 release ${component} v${version}",
   "packages": {
     ".": {}
   }
