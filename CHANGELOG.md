@@ -4,6 +4,18 @@ All notable changes to the "intellicommit" extension will be documented in this 
 
 <!-- Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file. -->
 
+## [0.1.0](https://github.com/thisisrick25/IntelliCommit/compare/intellicommit-v0.0.1...intellicommit-v0.1.0) (2025-06-14)
+
+
+### ✨ Features
+
+* add release-please ([#4](https://github.com/thisisrick25/IntelliCommit/issues/4)) ([a906fa1](https://github.com/thisisrick25/IntelliCommit/commit/a906fa1206bf91f8b03a1c772d534587578d9f68))
+
+
+### 🤖 Continuous Integration
+
+* remove release-please workflow ([#13](https://github.com/thisisrick25/IntelliCommit/issues/13)) ([5f69dc4](https://github.com/thisisrick25/IntelliCommit/commit/5f69dc45f02a0e41b1fad355744657f02da704b8))
+
 ## [Unreleased]
 
 - Initial release
