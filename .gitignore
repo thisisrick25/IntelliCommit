@@ -3,3 +3,9 @@ dist
 node_modules
 .vscode-test/
 *.vsix
+
+# gemini-cli settings
+.gemini/
+
+# GitHub App credentials
+gha-creds-*.json
